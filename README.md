@@ -1,5 +1,16 @@
 # Details of a book image without OCR
 Counting characters, words and lines of a text in an image of a book page with poor lighting and shadows.
+### Preprocessing:
+1. Image acquisition.
+2. Background removal.
+3. Image binarization.
+4. Filtering to remove noise and join isolated points.
+
+### Counting:
+1. Labeling of connected regions (characters).
+2. Calculation of the area of each region.
+3. Definition of an area threshold for counting characters.
+4. Counting words and lines from the characters.
 
 ## Before & After Processing
 <div align="center">
@@ -16,18 +27,3 @@ Counting characters, words and lines of a text in an image of a book page with p
 <img src="image.jpg">
 </div>
 
-Process
-The steps to follow are:
-
-Preprocessing:
-
-Image acquisition.
-Background removal.
-Image binarization.
-Filtering to remove noise and join isolated points.
-Counting:
-
-Labeling of connected regions (characters).
-Calculation of the area of each region.
-Definition of an area threshold for counting characters.
-Counting words and lines from the characters.

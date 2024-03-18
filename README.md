@@ -12,7 +12,12 @@ Counting characters, words and lines of a text in an image of a book page with p
 3. Definition of an area threshold for counting characters.
 4. Counting words and lines from the characters.
 
-## Before & After Processing
+## Original image
+<div align="center">
+<img src="image.jpg">
+</div>
+
+## Image Processing
 <div align="center">
 <img src="assets/Procesado_imagen.png">
 </div>
@@ -21,9 +26,3 @@ Counting characters, words and lines of a text in an image of a book page with p
 <div align="center">
 <img src="assets/Skeleton Cerca.png">
 </div>
-
-## Original image
-<div align="center">
-<img src="image.jpg">
-</div>
-
